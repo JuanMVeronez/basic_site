@@ -1,0 +1,94 @@
+header {
+    background-color: #BBBBBB;
+    padding: 10px 0;
+}
+
+.caixa_header {
+    position:relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    top: 110px;
+}
+
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    padding: 50px 0;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.produtos li {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box; /* isso faz com que o tamanho total do elemento mantenha 30%, nao crescendo com o padding */
+    border: 2px solid #000000;
+    border-radius: 15px 40px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 33px;
+}
+
+.produtos .descricao {
+    font-size: 18px;
+}
+
+.produtos .preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(res/bg.jpg);
+    padding: 20px 0;   
+}
+
+footer p {
+    color: white;
+}
+
+footer #text-exemplo {
+    margin-top: 20px;
+}
+
+footer #copyright {
+    font-size: 13px;
+}
