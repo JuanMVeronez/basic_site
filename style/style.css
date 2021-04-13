@@ -77,7 +77,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background-image: url(res/bg.jpg);
+    background-image: url(../res/bg.jpg);
     padding: 20px 0;   
 }
 
@@ -98,15 +98,61 @@ main .div-formulario-contato {
     margin: 40px auto;
 }
 
-main form label {
+main form label, main form legend {
     display: block;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-main form input {
+.layout-itens-texto {
     display: block;
     margin-bottom: 20px;
     width: 50%;
     padding: 10px 25px;
+}
+
+fieldset.sessao-formulario {
+    margin: 20px 0px;
+}
+
+#botao-envio-formulario {
+    padding: 10px 0;
+    width: 40%;
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+    border: none;
+    border-radius: 10px;
+
+    background-color: #C78C19;
+
+    cursor: pointer;
+}
+
+#botao-envio-formulario:hover {
+    transition: 1s;  /* pode ser colocado em qualquer parte dessa config */
+    
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+#tabela-horarios-atendimento {
+    margin: 40px 0;
+}
+
+#tabela-horarios-atendimento thead {
+    background-color: #555555;
+    font-weight: bold;
+    color: white;
+}
+
+#tabela-horarios-atendimento td, #tabela-horarios-atendimento th {
+    text-align: left;
+    padding: 10px 15px 3px 15px;
+}
+
+#tabela-horarios-atendimento td {
+    border-bottom: 1px solid black;
 }
