@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 10px 0;
@@ -34,10 +38,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.produtos {
-    padding: 50px 0;
+main .produtos {
+    padding: 20px 0;
     width: 940px;
-    margin: 0 auto;
+    margin: 40 auto;
     text-align: center;
 }
 
@@ -91,11 +95,6 @@ footer #text-exemplo {
 
 footer #copyright {
     font-size: 13px;
-}
-
-main .div-formulario-contato {
-    width: 940px;
-    margin: 40px auto;
 }
 
 main form label, main form legend {
@@ -155,4 +154,101 @@ fieldset.sessao-formulario {
 
 #tabela-horarios-atendimento td {
     border-bottom: 1px solid black;
+}
+
+/* Css expecifico pagina principal */
+#banner {
+    width: 100%;
+}
+
+
+main .principal {
+    background-color: #fefefe;
+}
+
+.conteudo-principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+main .titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+main p {
+    margin-bottom: 1em;
+}
+
+main p em {
+    font-style: italic;
+}
+
+main p strong {
+    font-weight: bold;
+}
+
+main .mapa {
+    background: linear-gradient(#fefefe, #888888);
+}
+main .mapa .conteudo-mapa {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+main .mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+
+main section.mapa iframe {
+    width: 100%;
+    height: 300px;
+}
+
+main .beneficios {
+    background-color: #888888;
+    padding: 3em 0;
+}
+main .conteudo-beneficios {
+    margin: 0 auto;
+    width: 640px
+}
+
+main .lista-beneficios{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    display: inline-block;
+    vertical-align: top;
+    width: 39%;
+}
+
+main .lista-beneficios li:first-child {
+    font-weight: bold;
+}
+
+main .lista-beneficios li::before {
+    content: "✓";
+}
+
+main #imagem-beneficios {
+    width: 60%;    
+}
+
+main .video {
+    margin: 2em auto;
+    width: min-content; 
+}
+
+main img.utensilios{
+    width: 5em;
+    float:left;
+    margin: 0 20px 20px 0;
+    position: relative;
+    top: -1em;
 }
